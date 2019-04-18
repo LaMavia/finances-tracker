@@ -1,0 +1,42 @@
+{
+  "name": "finances-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "ts-node ./server/server.ts",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "curie-server": "^2.4.0",
+    "fs-extra": "^7.0.1",
+    "react-router-dom": "^5.0.0",
+    "webpack-merge": "^4.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "typescript": "3.4.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "*",
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "@types/jest": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*"
+  }
+}
