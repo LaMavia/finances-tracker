@@ -1,6 +1,7 @@
 import React, { ReactElement, useState } from "react"
+import { ViewExport } from "../Root";
 
-export const Home = (): ReactElement => {
+export const Index = (): ReactElement => {
 
   const [clicks, setClicks] = useState(0)
 
@@ -12,5 +13,7 @@ export const Home = (): ReactElement => {
   )
 }
 
-// Every view has to export default it's ReactElement
-export default <Home/>
+export default {
+  component: Index,
+  path: "/"
+} as ViewExport

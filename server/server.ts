@@ -14,10 +14,12 @@ global.ReactDOMServer = ReactDOMServer;
   await initApp({
     port: +(process.env["PORT"] || 8000),
     database: '',
-    preRun: [],
     routeParser: ReactParser,
     listeners: ["./listeners", "list.[tj]s"],
-    public: "../build"
+    public: "../build",
+    preRun: [
+      "npm run build"
+    ],
   })
 
   @use()

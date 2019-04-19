@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import { Home } from './Home';
+import './index.scss';
+import initRoot from "./Root"
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.hydrate(<Home />, document.getElementById('root'));
+const Root = initRoot("Client")
+
+ReactDOM.hydrate(<Root/>, document.getElementById('root'));
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

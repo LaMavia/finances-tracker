@@ -1,22 +1,37 @@
 {
-	"compilerOptions": {
-		"target": "ES2016",
-		"module": "commonjs",
-		"lib": ["esnext.asynciterable", "dom", "es2015", "esnext"],
-		"jsx": "react",
-		"removeComments": true,
-		"strict": true,
-		"esModuleInterop": true,
-		"experimentalDecorators": true,
-		"emitDecoratorMetadata": true,
-		"noImplicitThis": true,
-		"alwaysStrict": true,
-		"declaration": true,
-		"sourceMap": true,
-		"diagnostics": true,
-		"rootDir": "./src/"
-	},
-	"exclude": [
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "esnext",
+    "lib": [
+      "esnext.asynciterable",
+      "dom",
+      "es2015",
+      "esnext"
+    ],
+    "jsx": "preserve",
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "diagnostics": true,
+    "rootDir": "./src/",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "exclude": [
     "./node_modules/"
+  ],
+  "include": [
+    "./src"
   ]
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server:dev": "ts-node ./server/server.ts",
+    "server:dev": "nodemon --watch ./server/ --exec \"ts-node  --project ./tsconfig.server.json ./server/server.ts\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -22,12 +22,14 @@
   "dependencies": {
     "curie-server": "^2.4.0",
     "fs-extra": "^7.0.1",
-    "react-router-dom": "^5.0.0",
-    "webpack-merge": "^4.2.1",
+    "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
-    "typescript": "3.4.3"
+    "typescript": "3.4.3",
+    "webpack-merge": "^4.2.1"
   },
   "devDependencies": {
     "@babel/cli": "*",
@@ -37,6 +39,8 @@
     "@types/jest": "*",
     "@types/node": "*",
     "@types/react": "*",
-    "@types/react-dom": "*"
+    "@types/react-dom": "*",
+    "@types/react-router": "^4.4.5",
+    "@types/react-router-dom": "^4.3.2"
   }
 }

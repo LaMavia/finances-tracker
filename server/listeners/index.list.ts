@@ -3,7 +3,7 @@ import { Listener, hookup, Request, Response } from "curie-server";
 @hookup("/")
 export default class Index extends Listener {
   async onGET(req: Request, res: Response) {
-    await this.render(res, "index")
+    await this.render(res, "/")
     return [null, false]
   }
 }
