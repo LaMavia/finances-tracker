@@ -30,6 +30,7 @@
       "type": "node",
       "request": "launch",
       "name": "Debug server",
+      "cwd": "${workspaceFolder}\/server",
       "runtimeArgs": [
         "-r",
         "ts-node\/register"
@@ -37,6 +38,16 @@
       "args": [
         "${workspaceFolder}\/server\/server.ts"
       ]
+    },
+    {
+      "name": "Current TS File",
+      "type": "node",
+      "request": "launch",
+      "args": ["${relativeFile}"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
     },
     {
       "type": "node",

@@ -1,0 +1,119 @@
+@import './_colors.pcss';
+
+$btn-h: 50px;
+
+@mixin tran {
+  transition: transform .2s 0s ease-in-out;
+}
+
+.ui {
+  &__btn {
+    background-color: #ffffff;
+    @include shadow();
+    height: $btn-h;
+    border: none;
+    font-size: 25px;
+    line-height: $btn-h;
+    @include tran;
+
+    svg {
+      margin-top: calc($btn-h / 4);
+    }
+
+    &--circular {
+      border-radius: 50%;
+      background-color: $yellow;
+      width: $btn-h;
+      fill: $white;
+    }
+
+    &--wide {
+      width: calc($btn-h * 2);
+      background-color: $white;
+      border-radius: 25px;
+      fill: $gray;
+
+      &--left {
+        svg {
+          transform: rotate(-90deg);
+        }
+      }
+
+      &--right {
+        svg {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}
+
+.nav {
+  @include tran;
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100vw;
+  min-height: $btn-h;
+  height: auto;
+  will-change: transform;
+  align-items: flex-end;
+
+  * {
+    will-change: transform;
+    bottom: 0;
+  }
+
+  &--open {
+    transform: translateY(-20px);
+
+    .nav__catch {
+      display: block;
+    }
+
+    .ui__btn--wide {
+      transform: translateY(30vh);
+    }
+
+    .nav__burger__btn--slave {
+      &--top {
+        transform: translateY(calc($btn-h * -1 - 20px));
+      }
+
+      &--left {
+        transform: translateX(calc(($btn-h + 20px) * -1));
+      }
+
+      &--right {
+        transform: translateX(calc($btn-h + 20px));
+      }
+    }
+  }
+
+  &__burger {
+    width: $btn-h;
+    height: $btn-h;
+    position: relative;
+
+    &__btn {
+      position: absolute;
+      appearance: none;
+
+      &--master {
+        z-index: 10;
+      }
+    }
+  }
+
+  &__catch {
+    position: fixed;
+    left: 0;
+    top: -100vh;
+    width: 100vw;
+    height: 200vh;
+    background-color: transparent;
+    display: none;
+  }
+}

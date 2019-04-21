@@ -1,6 +1,6 @@
 import React from "react";
 
-const SvgAtm = (props: any[]) => (
+const SvgAtm = (props: any) => (
   // @ts-ignore
   <svg width="1em" height="1em" viewBox="0 0 24 24" {...props}>
     <path d="M0 0h24v24H0z" fill="none" />

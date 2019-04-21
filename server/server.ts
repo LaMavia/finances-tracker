@@ -18,13 +18,15 @@ global.ReactDOMServer = ReactDOMServer;
     listeners: ["./listeners", "list.[tj]s"],
     public: "../build",
     preRun: [
-      "npm run build"
+      "npm run build",
+      "npm run postcss:build",
+      // "echo Hello"
     ],
   })
 
   @use()
   // @ts-ignore
-  class _ extends Middleware {
+  class Logger extends Middleware {
     logger: LoggerFunction = initLogger("Logger", "whiteBright")
     async intercept(req: Request, _res: Response) {
       this.logger(req.url)

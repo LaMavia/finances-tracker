@@ -1,19 +1,35 @@
-import React, { ReactElement, useState } from "react"
-import { ViewExport } from "../Root";
+import React, { ReactElement, useState } from 'react'
+import { ViewExport } from '../Root'
+import { Nav } from '../components/Nav'
+import lc from 'locale-currency'
+import { Balance } from '../components/Balance';
 
+let lang = () => {
+  try {
+    return navigator.language || "en-EN"
+  } catch (err) {
+    return "en-EN"
+  }
+}
+
+const formatter = (() => {
+  const c_code = lang() || "en-EN"
+  const c_got = lc.getCurrency(c_code) || "USD"
+  return Intl.NumberFormat(
+    lang(), {
+    currency: c_got,
+    style: 'currency'
+  })
+})()
 export const Index = (): ReactElement => {
-
-  const [clicks, setClicks] = useState(0)
-
   return (
-    <div>
-      <h1>Hello from the SSR!</h1>
-      <button onClick={() => setClicks(clicks + 1)}>{clicks}</button>
-    </div>
+    <section className="index">
+      <Balance formatter={formatter}/>
+    </section>
   )
 }
 
 export default {
   component: Index,
-  path: "/"
+  path: '/'
 } as ViewExport

@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server:dev": "nodemon --watch ./server/ --exec \"ts-node  --project ./tsconfig.server.json ./server/server.ts\"",
+    "server:dev": "nodemon --watch ./server/ --exec \"ts-node  --project ./server/tsconfig.json ./server/server.ts\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev:static": "node ./server/static.js",
+    "postcss": "postcss ./src/index.pcss -w -o ./build/static/css/styles.css",
+    "postcss:build": "postcss --env production ./src/index.pcss -o ./build/static/css/styles.css",
+    "dev": "concurrently --kill-others \"npm start\" \"npm run postcss\""
   },
   "keywords": [],
   "author": "",
@@ -20,14 +24,28 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "curie-server": "^2.4.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "curie-server": "^2.4.2",
     "fs-extra": "^7.0.1",
+    "locale-currency": "0.0.2",
     "node-sass": "^4.11.0",
+    "postcss-at-debug": "^0.1.2",
+    "postcss-extend": "^1.0.5",
+    "postcss-functions": "^3.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.1",
+    "postcss-nested": "^4.1.2",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-utilities": "^0.8.0",
+    "postcss-write-svg": "^3.0.1",
+    "precss": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "rucksack-css": "^1.0.2",
     "typescript": "3.4.3",
     "webpack-merge": "^4.2.1"
   },
@@ -41,6 +59,9 @@
     "@types/react": "*",
     "@types/react-dom": "*",
     "@types/react-router": "^4.4.5",
-    "@types/react-router-dom": "^4.3.2"
+    "@types/react-router-dom": "^4.3.2",
+    "postcss-scss": "^2.0.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-recommended-scss": "^3.3.0"
   }
 }

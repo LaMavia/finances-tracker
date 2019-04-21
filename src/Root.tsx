@@ -8,9 +8,11 @@ import {
   RouteComponentProps
 } from 'react-router'
 import Index from './views/index'
+import { Nav } from './components/Nav';
+import Balance from './views/Income';
 
 export interface RootOptions {
-  context: StaticContext
+  context: StaticContext 
   location: string
 }
 
@@ -31,7 +33,7 @@ export default (
   }
 ) => {
   // Prepare routes
-  const routes = [Index] as ViewExport[]
+  const routes = [Balance, Index] as ViewExport[]
 
   // Switch render
   let render: typeof React.Component.prototype.render
@@ -39,6 +41,7 @@ export default (
     render = function() {
       return (
         <BrowserRouter>
+          <Nav/>
           <RD.Switch children={routes.map(route => <RD.Route {...route} />)}/>
         </BrowserRouter>
       )
@@ -46,6 +49,7 @@ export default (
   else
     render = function() {
       return <StaticRouter location={location} context={ctx}>
+        <Nav/>
         <RS.Switch children={routes.map(route => <RS.Route {...route} />)}/>
       </StaticRouter>
     }
