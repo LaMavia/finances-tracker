@@ -1,5 +1,5 @@
 import { useState } from "react";
-interface DispatchProps {
+export interface DispatchProps {
   item: "expense" 
     | "subsciption" 
     | "income"
@@ -7,26 +7,6 @@ interface DispatchProps {
   data: {
     [key: string]: any
   }
-}
-
-interface User {
-  _id: string
-  login: string
-  balance: number
-  last_online: string // UTC Datestring
-  history: {
-    item: "expense" | "income",
-    title: string
-    amount: number
-    date: string // UTC Datestring
-    time: string
-  }[],
-  subscriptions: {
-    title: string
-    frequency: number
-    since: string // UTC Datestring
-    last_pay: string // UTC Datestring
-  }[]
 }
 
 const fixHref = (s: string) => s.replace(/\/$/, '')

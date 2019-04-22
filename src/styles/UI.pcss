@@ -70,7 +70,7 @@ $btn-h: 50px;
     transform: translateY(-20px);
 
     .nav__catch {
-      display: block;
+      visibility: visible;
     }
 
     .ui__btn--wide {
@@ -113,7 +113,33 @@ $btn-h: 50px;
     top: -100vh;
     width: 100vw;
     height: 200vh;
-    background-color: transparent;
-    display: none;
+    visibility: hidden;
   }
+}
+$card-h: 100px;
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  $fw: 300;
+  height: $card-h;
+  color: $white;
+  text-transform: capitalize;
+  font-weight: $fw !important;
+  padding-left: 30px;
+
+  &__route {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__name {
+    font-size: 30px;
+    font-weight: $fw !important;
+    bottom: 0;
+  }
+}
+
+.subsite {
+  margin-top: $card-h;
 }

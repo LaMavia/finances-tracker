@@ -10,6 +10,8 @@ import {
 import Index from './views/index'
 import { Nav } from './components/Nav';
 import Balance from './views/Income';
+import Register from './views/Register';
+import Login from './views/Login';
 
 export interface RootOptions {
   context: StaticContext 
@@ -33,7 +35,7 @@ export default (
   }
 ) => {
   // Prepare routes
-  const routes = [Balance, Index] as ViewExport[]
+  const routes = [Login, Register, Balance, Index] as ViewExport[]
 
   // Switch render
   let render: typeof React.Component.prototype.render

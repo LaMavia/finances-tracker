@@ -12,7 +12,7 @@
     "dev:static": "node ./server/static.js",
     "postcss": "postcss ./src/index.pcss -w -o ./build/static/css/styles.css",
     "postcss:build": "postcss --env production ./src/index.pcss -o ./build/static/css/styles.css",
-    "dev": "concurrently --kill-others \"npm start\" \"npm run postcss\""
+    "dev": "concurrently --kill-others \"npm run dev:static\" \"npm start\" \"npm run postcss\""
   },
   "keywords": [],
   "author": "",
@@ -24,8 +24,10 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
+    "curie-mongo": "^0.1.2",
     "curie-server": "^2.4.2",
     "fs-extra": "^7.0.1",
     "locale-currency": "0.0.2",
@@ -54,6 +56,7 @@
     "@babel/core": "*",
     "@babel/preset-env": "*",
     "@babel/preset-react": "*",
+    "@types/bcrypt": "^3.0.0",
     "@types/jest": "*",
     "@types/node": "*",
     "@types/react": "*",
