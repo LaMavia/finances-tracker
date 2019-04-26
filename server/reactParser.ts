@@ -23,7 +23,7 @@ export class ReactParser {
 
   render(response: Laplax.ShieldRes, path: string) {
     return new Promise((res, rej) => {
-      const initRoot = require(resolve(__dirname, '../src/', 'Root.tsx'))
+      const initRoot = require(resolve(__dirname, '../client/src/', 'Root.tsx'))
         .default as any
       const el = initRoot('Server', {
         context: {
