@@ -24,14 +24,11 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "bcrypt": "^3.0.6",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
-    "curie-mongo": "^0.1.2",
-    "curie-server": "^2.4.2",
     "fs-extra": "^7.0.1",
+    "laplax": "^0.1.5",
     "locale-currency": "0.0.2",
-    "node-sass": "^4.11.0",
     "postcss-at-debug": "^0.1.2",
     "postcss-extend": "^1.0.5",
     "postcss-functions": "^3.0.0",
@@ -56,7 +53,7 @@
     "@babel/core": "*",
     "@babel/preset-env": "*",
     "@babel/preset-react": "*",
-    "@types/bcrypt": "^3.0.0",
+    "@types/fs-extra": "^5.0.5",
     "@types/jest": "*",
     "@types/node": "*",
     "@types/react": "*",
@@ -65,6 +62,7 @@
     "@types/react-router-dom": "^4.3.2",
     "postcss-scss": "^2.0.0",
     "stylelint-config-recommended": "^2.2.0",
-    "stylelint-config-recommended-scss": "^3.3.0"
+    "stylelint-config-recommended-scss": "^3.3.0",
+    "webpack": "^4.30.0"
   }
 }
