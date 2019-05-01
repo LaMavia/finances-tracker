@@ -1,37 +1,41 @@
-import { Listener, hookup, Request, Response, send } from "curie-server";
 import { UserProps, users, User } from "../models/users";
 import bcrypt from 'bcrypt'
+import { Flow, River, initLogger } from "river-flow"
+import { parser } from "../reactParser";
+import { database } from "../database";
 
-@hookup("/login")
-export default class Index extends Listener {
-  async onGET(req: Request, res: Response) {
-    await this.render(res, "/login")
-    return [null, false]
-  }
-
-  async onPOST(req: Request, res: Response) {
-    if(!this.server.db) return [new Error("Databse not found"), false]
-    let { login, password } = req.body as {login: string, password: string}
-
-    const users: any[] = await this.server.db.get({
-      users: {
-        login,
-      }
-    })
-
-    const user = users.find((u: users) => bcrypt.compareSync(password, u.password))
-
-    if(user) {
-      send(res, new User(user), {
-        'Content-Type': 'application/json'
-      })
-      return [null, false]
-    } else {
-      send(res, null, {
-        status: 404,
-        message: 'user not found'
-      })
-      return [new Error("User not found"), false]
+export default [
+  [
+    'GET', '/login', async ({req, res}) => {
+      await parser.render(res, "/login")
     }
-  }
-}
+  ],
+  [
+    'POST', '/login', async ({req, res}) => {
+      let { login, password } = req.body as {login: string, password: string}
+  
+      const users: any[] = await database.get({
+        users: {
+          login,
+        }
+      })
+  
+      const user = users.find((u: users) => bcrypt.compareSync(password, u.password))
+  
+      if(user) {
+        res.send(new User(user), {
+          'Content-Type': 'application/json'
+        })
+        return void 0
+      } else {
+        res.send(null, {
+          status: 404,
+          message: 'user not found'
+        })
+        return {
+          error: new Error("User not found")
+        } as River.RouteResponse
+      }
+    }
+  ]
+] as River.RouteExport[]

@@ -47,7 +47,8 @@ export const Register = (): ReactElement => {
     if(user.password !== user.repassword) return alert("Passwords don't match")
 
     fetch(location.href, {
-      body: JSON.stringify(user)
+      body: JSON.stringify(user),
+      method: "POST"
     }).then(res => res.json())
     .then(j => {
       if(!j.status) location.href = "/"

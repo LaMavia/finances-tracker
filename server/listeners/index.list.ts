@@ -1,9 +1,10 @@
-import { Listener, hookup, Request, Response } from "curie-server";
+import { Flow, River } from "river-flow";
+import { parser } from "../reactParser";
 
-@hookup("/")
-export default class Index extends Listener {
-  async onGET(req: Request, res: Response) {
-    await this.render(res, "/")
-    return [null, false]
-  }
-}
+export default [
+  [
+    'GET', '/', async ({ res }) => {
+      await parser.render(res, '/')
+    }
+  ]
+] as River.RouteExport[]

@@ -1,63 +1,80 @@
-import Curie, { Listener, send, hookup } from "curie-server";
-import { UserProps, users } from "../models/users";
-import bcrypt from "bcrypt"
-import { MongoDBridge } from "curie-mongo";
+import { UserProps, users } from '../models/users'
+import bcrypt from 'bcrypt'
+import { Flow, River } from 'river-flow'
+import { ReactParser, parser } from '../reactParser'
+import { database } from '../database'
 
+export default [
+  [
+    'GET',
+    '/register',
+    async ({ req, res }) => {
+      await parser.render(res, '/register')
+    },
+  ],
+  [
+    'POST',
+    '/register',
+    async ({ req, res }) => {
+      let { email, login, password } = req.body as UserProps
+      console.dir(req.body, { colors: true, depth: 3 })
 
-@hookup("/register")
-export default class Register extends Listener {
-  async onGET(req: Curie.Request, res: Curie.Response) {
-    await this.render(res, '/register')
-    return [null, false]
-  }
-
-  async isUsed(login: string, email: string): Promise<"email" | "login" | "both" | null> {
-    if(!this.server.db) throw new Error("Database not initialized")
-    debugger
-    const res = await this.server.db.get({
-      users: {
-        $or: [
-          {login}, {email} 
-        ]
+      if(!email || !login || !password)  {
+        res.writeHead(409, `Insufficent credencials: ${JSON.stringify(req.body)}`) 
+        return void 0 
       }
-    }) as users[]  
-    let [l, em] = [false, false]
-    for(let i = 0; i < res.length, !l || !em; i++) {
-      if(!l && res[i].login === login) l = true
-      if(!em&& res[i].email === email) em = true
-    }
 
-    return l && em 
-      ? 'both' 
-      : (l ? 'login' : (
-        em ? 'email' : null
-      ))
-  }
+      const used = await isUsed(login, email)
+      console.log(used)
+      if (used) {
+        res.writeHead(409, `Credencial(s): ${used} already exist`)
+        return
+      }
 
-  async onPOST(req: Curie.Request, res: Curie.Response) {
-    if(!this.server.db) throw new Error("Database not initialized")
-    debugger
-    let { email, login, password } = req.body as UserProps
-    const used = this.isUsed(login, email)
-    if(used) return [new Error(`Credencial(s): ${used} already exist`), false]
+      password = await bcrypt.hash(password, 10)
+      const db_res = await database.create(users, req.body)
+      console.dir(db_res, { colors: true, depth: 3 })
 
-    password = await bcrypt.hash(password, 10)
-    debugger
-    const db_res = await (this.server.db as MongoDBridge).create(users, req.body)
-
-    if(db_res.result.ok && db_res.result.n === 1) {
-      await send(res, await this.server.db.get({
-        users: {
-          login,
+      if (db_res.result.ok && db_res.result.n === 1) {
+        await res.send(
+          await database.get({
+            users: {
+              login,
+            },
+          })
+        )
+        return void 0
+      } else {
+        await res.send({
+          status: 406,
+          message: 'Error during registration despite correct crudentials',
+        })
+        return {
+          error: new Error('Server-db error'),
         }
-      }))
-      return [null, false]
-    } else {
-      await send(res, {
-        status: 406,
-        message: "Error during registration despite correct crudentials"
-      })
-      return [new Error("Server-db error"), false]
-    }
+      }
+    },
+  ],
+] as River.RouteExport[]
+
+async function isUsed(
+  login: string,
+  email: string
+): Promise<'email' | 'login' | 'both' | null> {
+  debugger
+  const res = (await database.get({
+    users: {
+      $or: [{ login }, { email }],
+    },
+  })) as users[]
+
+  console.dir({ res, login, email }, { colors: true, depth: 3 })
+
+  let [l, em] = [false, false]
+  for (let i = 0; i < res.length, !l || !em; i++) {
+    if (!l && res[i].login === login) l = true
+    if (!em && res[i].email === email) em = true
   }
+
+  return l && em ? 'both' : l ? 'login' : em ? 'email' : null
 }

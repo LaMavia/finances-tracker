@@ -1,0 +1,2332 @@
+{
+  "program": {
+    "fileInfos": {
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88",
+        "signature": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376",
+        "signature": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3",
+        "signature": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d",
+        "signature": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4",
+        "signature": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe",
+        "signature": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594",
+        "signature": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/globals.d.ts": {
+        "version": "3af134c0480536f901a30692d216bd29712a3869fe38a7be066ea1eef34a8561",
+        "signature": "3af134c0480536f901a30692d216bd29712a3869fe38a7be066ea1eef34a8561"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a",
+        "signature": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts": {
+        "version": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00",
+        "signature": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/crypto.d.ts": {
+        "version": "a15466cfe77b4f8bcd936634d3d2828ee340819c3f136d31f87d6084e86994d0",
+        "signature": "a15466cfe77b4f8bcd936634d3d2828ee340819c3f136d31f87d6084e86994d0"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dgram.d.ts": {
+        "version": "beedf72ae8a4176d262e464b70544021a8cd765e21f58325eae5d132a3eb359d",
+        "signature": "beedf72ae8a4176d262e464b70544021a8cd765e21f58325eae5d132a3eb359d"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts": {
+        "version": "92bd533d635f967b198fde9bc789996370f0db3322306646d961f64e67ed5b7a",
+        "signature": "92bd533d635f967b198fde9bc789996370f0db3322306646d961f64e67ed5b7a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts": {
+        "version": "cff7f1ff41519a28adfedb85b9d91325e13d7993bebcfd0dd9ce30c3ed1240bb",
+        "signature": "cff7f1ff41519a28adfedb85b9d91325e13d7993bebcfd0dd9ce30c3ed1240bb"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts": {
+        "version": "dbe39c84ad40acd4b4259bc035aa5870ab08bcab899d2f7089c7922a434cf02d",
+        "signature": "dbe39c84ad40acd4b4259bc035aa5870ab08bcab899d2f7089c7922a434cf02d"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts": {
+        "version": "e8d6f288602f2b48bf558264b38c75fb164ae0fa8c62d2fcac91f30b4e1b349a",
+        "signature": "e8d6f288602f2b48bf558264b38c75fb164ae0fa8c62d2fcac91f30b4e1b349a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http2.d.ts": {
+        "version": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07",
+        "signature": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/inspector.d.ts": {
+        "version": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e",
+        "signature": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts": {
+        "version": "b610b39b7d42b8e8359875ce77c3149d657bbaa6c9058beb655af805efb581b3",
+        "signature": "b610b39b7d42b8e8359875ce77c3149d657bbaa6c9058beb655af805efb581b3"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts": {
+        "version": "8eb33193516c1805512396183374f3cfe7e0b1b87ec31f210259ea8d9cc13d44",
+        "signature": "8eb33193516c1805512396183374f3cfe7e0b1b87ec31f210259ea8d9cc13d44"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts": {
+        "version": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083",
+        "signature": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tty.d.ts": {
+        "version": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4",
+        "signature": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts": {
+        "version": "45dd52f3123d2189b981f92410c9d5d0ba1b4c257f2f98fdf983c48ec3132ab8",
+        "signature": "45dd52f3123d2189b981f92410c9d5d0ba1b4c257f2f98fdf983c48ec3132ab8"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/v8.d.ts": {
+        "version": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "signature": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "signature": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45",
+        "signature": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/fs-extra/index.d.ts": {
+        "version": "a609600956f9652b488fe0cd3687deed05ee276a3d6a76000386add895ec9450",
+        "signature": "a609600956f9652b488fe0cd3687deed05ee276a3d6a76000386add895ec9450"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/parse.ts": {
+        "version": "415d02317013936af3789253afbe54e887eb140b8be22ec6a5cf59f56ae4a50b",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/global.d.ts": {
+        "version": "d5b58524cdaac378daa8228fabc96d6cf6fba4b8940512c7b06f18da47fec7ba",
+        "signature": "d5b58524cdaac378daa8228fabc96d6cf6fba4b8940512c7b06f18da47fec7ba"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/csstype/index.d.ts": {
+        "version": "de74412313fd11c6c176b0dcd976d2be278e596da8b927d61e840bea5b184904",
+        "signature": "de74412313fd11c6c176b0dcd976d2be278e596da8b927d61e840bea5b184904"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/prop-types/index.d.ts": {
+        "version": "5e632216dfe01f2ff76f1c312c28632fde75364c24d659b732f2ee59e9ccf1b2",
+        "signature": "5e632216dfe01f2ff76f1c312c28632fde75364c24d659b732f2ee59e9ccf1b2"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts": {
+        "version": "5ce793a69baa03299c5f4c0f0ee4985afc6527b7409f7f54fd89f97f64bf6aec",
+        "signature": "5ce793a69baa03299c5f4c0f0ee4985afc6527b7409f7f54fd89f97f64bf6aec"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts": {
+        "version": "dc49082466ff7e61cfbaf146f106a59274dbb95f726ed1e22a54375f82992953",
+        "signature": "dc49082466ff7e61cfbaf146f106a59274dbb95f726ed1e22a54375f82992953"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createBrowserHistory.d.ts": {
+        "version": "fe06c9ab9abf0dab56969c939843475ba7a6bd28e3e3abb1270d842c91ffc8e6",
+        "signature": "fe06c9ab9abf0dab56969c939843475ba7a6bd28e3e3abb1270d842c91ffc8e6"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createHashHistory.d.ts": {
+        "version": "768dec00dc5dcf5507fe189fec9c1dab6b65dd1647f837e5c484c10ad04cb731",
+        "signature": "768dec00dc5dcf5507fe189fec9c1dab6b65dd1647f837e5c484c10ad04cb731"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createMemoryHistory.d.ts": {
+        "version": "5eb451d7ec8534087b5d09388630090f600a0a3e15d004ef62de723f9408c3b1",
+        "signature": "5eb451d7ec8534087b5d09388630090f600a0a3e15d004ef62de723f9408c3b1"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/LocationUtils.d.ts": {
+        "version": "2bce9570939b15db87478ed4902e618c7a5a78667a2da088e091e43a59709f14",
+        "signature": "2bce9570939b15db87478ed4902e618c7a5a78667a2da088e091e43a59709f14"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/PathUtils.d.ts": {
+        "version": "bca166983a1b4bea5aff7ac14949ed25c065d0a006990136b75c3f4690c4e93c",
+        "signature": "bca166983a1b4bea5aff7ac14949ed25c065d0a006990136b75c3f4690c4e93c"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts": {
+        "version": "f9c33085ccadc696db518a7f559a6aaa22297de5b0a95a2716b9147f6f7592c8",
+        "signature": "f9c33085ccadc696db518a7f559a6aaa22297de5b0a95a2716b9147f6f7592c8"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router/index.d.ts": {
+        "version": "599b6cf844941325d7129d8e89b3297e273c6afc76c5a0c14d263a05264169bb",
+        "signature": "599b6cf844941325d7129d8e89b3297e273c6afc76c5a0c14d263a05264169bb"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router-dom/index.d.ts": {
+        "version": "8e9e134592c8ba8156ad8ae2e31a7be29234195458fe2f2efeb70ab7c23d0e53",
+        "signature": "8e9e134592c8ba8156ad8ae2e31a7be29234195458fe2f2efeb70ab7c23d0e53"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Add.tsx": {
+        "version": "58adf799e1ee3940eb6d79e262cc197cb6099cb83c5bf86f8913d223b3279ebb",
+        "signature": "0cb97741c3814124ea8e0385e42c199867b2f38ba90b58d8d7e759f67fa9936f"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/ArrowUp.tsx": {
+        "version": "ff5f19900496d276cb6bfd3d633a10a468618d40aad24977342f8736ee11417e",
+        "signature": "6f1fbd4cc88c8da94a65753f582f5ccfedcb88d58978554142ee8bee86874a0b"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Clear.tsx": {
+        "version": "2b4c4a7c1ec5279c24b1923864a2897ed5722599fa77e13bf584ada565285b91",
+        "signature": "25fa058f411c0b88a88ce8309ff3c966b4e9b8e781dc9bd8838a8bafd3ed042a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Calendar.tsx": {
+        "version": "57564deb2462a03764036bc50c3766c9f3957926b92e91c653fd637548e6065e",
+        "signature": "c326cf117fa611a0571cef770250cf580b749abe4575b5c537f5f66b5f136eef"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Label.tsx": {
+        "version": "7d2eaef78523ae11de9ee3046d8490d23179a0b9987bbd3247cf6d42e1522d75",
+        "signature": "82013329f957d9dcd960dee9ab497c238785790cdb64a1a0e11012ab17565041"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Nav.tsx": {
+        "version": "283d1e2fd2cab27bd00d8ffe3421f066e02556f508870c0000f9816ec3be9e89",
+        "signature": "0b0ccbcbd5ab7fa9c1747b9d52e3d0c82218f6bb125f45e143e68c9c2715ddef"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/locale-currency/index.d.ts": {
+        "version": "12a6523928ed740263aece1f7a1283d7040752956dc414ffa11597b145b1e89d",
+        "signature": "12a6523928ed740263aece1f7a1283d7040752956dc414ffa11597b145b1e89d"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Tile.tsx": {
+        "version": "22611eb745e19bd9ec09e97cbf8d8a2d993bfcf2c5981957c2d6746ba8f7d77a",
+        "signature": "d02b165dce9a9d919a1ef4452f774a94b08529d6b61ffa7e39ec390aa115baac"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Balance.tsx": {
+        "version": "202648839cfffdcf4760ad551fb686f9f340a429150aae7c559e20c51267cc34",
+        "signature": "1512696cd34f454ba10cc80cc0e563a1d62447fac8b2bde3b299a81995573832"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/helpers/classes.ts": {
+        "version": "7409cd95d5648a356092d52b81b5509566edcecf502bcb0f968d9c84f1d79232",
+        "signature": "320c90a1b2674660f9b0e7da11c6f73c2cae45ddef5665d02a20b6d8da43a139"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/hooks/useUser.ts": {
+        "version": "041e3490c0fc28a018d9872344b0fa33fa0ac5cfb2c7f9c2dc281fc13f8ff8df",
+        "signature": "376461b914e35913a0ddd4a7f8810dfea2df9abbbb78481d4910b032417054df"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/History.tsx": {
+        "version": "2beacf781a101e01a07c6b3d6b088f6d518b77155a8410d3d25f446a7cb4ae99",
+        "signature": "147336fd5bc25063206bed6218103a095579d47084daa5b24c765d657eceed94"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/index.tsx": {
+        "version": "2d4bc9f6358d4bc5e9b99087549d8ce4131e188afca5ec223fb0952517c697da",
+        "signature": "724ae93269e864f61ea944b4147c7e21baa503d3079e8bf44abfd5a220eaa21e"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/helpers/formatter.ts": {
+        "version": "3ef7de35b252c2fdf9dcbcc6f019b954a24478d3a5c9468dc9b65a6a7625deb2",
+        "signature": "031555bdc04c6b47bd8a5141cc2d83bd69d9b6f8a18a0f788c404ba7dfa61e40"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Subsite.tsx": {
+        "version": "6f21f98229c733e839486562af020f42d684f22a5791dec2cba70dbf4c584533",
+        "signature": "292b82c5bd5acac4fd2d3d21c37806c39a13e76e13d789f28a215a98604fc6cd"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Income.tsx": {
+        "version": "e631875d67186bb0fedd9ca83421a71995c7576c360ce1984bb09803919b66bb",
+        "signature": "221bf4e6b3ac8a895946e26725b9d564c713867bb38b7fad7b768c2c0a95ab3d"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bcrypt/index.d.ts": {
+        "version": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba",
+        "signature": "18b9a9702d2fc7d3766b0c8124133c761ad25a9d767925005777eb2c2cd8aeba"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/models/users.ts": {
+        "version": "a5f6c4087fa2038cde8e29bb87bd12f6d551ac1763297820c35f99a0d59c05eb",
+        "signature": "b098725882801dcaaa6ae33fbc940ec3347361ce325e58df854200f813730779"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Register.tsx": {
+        "version": "9b0dc9d7bfea79c1102cc896150ad18275e621512aaa279ad2d51ac54227db6e",
+        "signature": "abc0cf3b4540d613a27c0ca807c059bb795dd3160cd79780ac10ba4debc70d68"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Login.tsx": {
+        "version": "d75465811e3edc18481de728203894217d60de25bbe753246dd9c76895c478a1",
+        "signature": "e2b0c8600edcf2f6f906648aea4b6391cf778ec14675165534beeb0c3d6d6733"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx": {
+        "version": "4072c60fd84576c7922a3117c29a036b49463767f1bfb93f24c6e762ea5f8fcf",
+        "signature": "0f6c5f6ae8e809e0e337e0027d0bb38ecb87b3055ccd7ec925d1abfb08bae34b"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/index.d.ts": {
+        "version": "5fe76ea99187e695f2e7ee00ddb0c9db41b217397ade188b8a137504728f687f",
+        "signature": "5fe76ea99187e695f2e7ee00ddb0c9db41b217397ade188b8a137504728f687f"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/serviceWorker.ts": {
+        "version": "edc616ec644fe319955cd212d95156fd617f42d8d1a18ea18789c40e97abb96f",
+        "signature": "10ba3724f41566bd123cda62a0d35b7744ceeb5e2cd991ffb6977649fe5a05c7"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/index.tsx": {
+        "version": "9e1c1f692cf0361341fdc82f5f833468fa7ea7ab45c215ceddbacfbedc6c0ae8",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/react-app-env.d.ts": {
+        "version": "c6bc3c2f1c9eaa5897d50a6c0cf4fe00250dfd109f729cd3814b568b2162a4e7",
+        "signature": "c6bc3c2f1c9eaa5897d50a6c0cf4fe00250dfd109f729cd3814b568b2162a4e7"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Atm.tsx": {
+        "version": "10335a7ce98490a9803b6465d04e5a70db0f75972d4d3f1a1aa453bc9702b3fc",
+        "signature": "9eac0d147faa232044b6052d1cca82e488bdca8492ff4fa8448c5da7e264e65c"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bson/index.d.ts": {
+        "version": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253",
+        "signature": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/mongodb/index.d.ts": {
+        "version": "1633ff2541b48ab0191eb8a72f250c0303196349083e877c22584fe582edab99",
+        "signature": "1633ff2541b48ab0191eb8a72f250c0303196349083e877c22584fe582edab99"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts": {
+        "version": "c5d3b6bc59760b48b411734a35bdf391667cd88df5034c784b7dbbde1d6516b5",
+        "signature": "c5d3b6bc59760b48b411734a35bdf391667cd88df5034c784b7dbbde1d6516b5"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/array.dict.d.ts": {
+        "version": "c3df990de59768b12423f70773daa54469ff6856ea212281af1585de2cc48085",
+        "signature": "c3df990de59768b12423f70773daa54469ff6856ea212281af1585de2cc48085"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts": {
+        "version": "755467209c041542b44d9a8d37e8ad996f14c8e92950d49d078edb081bfc405a",
+        "signature": "755467209c041542b44d9a8d37e8ad996f14c8e92950d49d078edb081bfc405a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/helpers/nativfy.d.ts": {
+        "version": "404c120b88aafcf64dbe25157bdc2065550408fd5bbc2064feabd642e59b2982",
+        "signature": "404c120b88aafcf64dbe25157bdc2065550408fd5bbc2064feabd642e59b2982"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/get.d.ts": {
+        "version": "3d034cf1037f856616a55ccaaa8b071f683184778acd519f368c275e1c389d43",
+        "signature": "3d034cf1037f856616a55ccaaa8b071f683184778acd519f368c275e1c389d43"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts": {
+        "version": "1f9866de4aeacb1285e8d4652fe6c538f2724ed4e5f880a07197ae560cff7193",
+        "signature": "1f9866de4aeacb1285e8d4652fe6c538f2724ed4e5f880a07197ae560cff7193"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/node_modules/chalk/types/index.d.ts": {
+        "version": "091f417275a51ab3c47b949723e9e8a193012157ecc64a96e2d7b1505e82f395",
+        "signature": "091f417275a51ab3c47b949723e9e8a193012157ecc64a96e2d7b1505e82f395"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/dynamicPath.ts": {
+        "version": "d3a7fa7db6b37dd2cc6391e0b72015d15654fe47db46f5d0f735d03222336f7b"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/logger.ts": {
+        "version": "991b420485b0bb3290078ea4ff518bfb5cd274e648f5c5011fbce0e2ad29bf6b"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/parseBody.ts": {
+        "version": "9265977307e12fa0405e5dee60c6bc961c4a388672c57dc95c79050f21672761"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/add.ts": {
+        "version": "bac8de858d241e1af1d6f921920bec2983215137245f5270b966210da2bbf049"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/randomEnoughID.ts": {
+        "version": "f6f0123c50629eb6d76843ebafb1144c095a5730a2ace5b5c5e5d6ab8bfd773c"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/sendMessage.ts": {
+        "version": "23aa6016d2cffe44fd233da82f80549f53cc32eeb834cd27c8560784f070ebef"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/send.ts": {
+        "version": "35bd10f71c8ac692c366f77fb94ea5b9b249db07648f9854f6350b91048f2d47"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/index.ts": {
+        "version": "043ef2f406176ade784b6832e53e340799adf30b8e88b0604cd2fc5e26e1c1cb"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/Master.ts": {
+        "version": "4846f9e95b69cf56a7ec85ccb1857a4d5ddd77b215dcf342da03f7404432da31"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/src/index.ts": {
+        "version": "c9f5e531fe384ab36fa6a8814742babdaf81d78b815221e20d79c97bf89472cd"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/types.d.ts": {
+        "version": "64f4b112787817146057ec3ce5892e901b29f745568ede84781695954e45d0d7",
+        "signature": "64f4b112787817146057ec3ce5892e901b29f745568ede84781695954e45d0d7"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/dynamicPath.d.ts": {
+        "version": "d2912bdd58a2f1e9e01bf14d7668898ca5e6310388c4c4b6cbb8085445b5e8f3",
+        "signature": "d2912bdd58a2f1e9e01bf14d7668898ca5e6310388c4c4b6cbb8085445b5e8f3"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/logger.d.ts": {
+        "version": "81637c0df2378394a2caede29d4152335c71e3362a47b4f838c8b08be5655abc",
+        "signature": "81637c0df2378394a2caede29d4152335c71e3362a47b4f838c8b08be5655abc"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/parseBody.d.ts": {
+        "version": "c132bcd16907ea62a7ecfa930c3a8554302ed0620b7261f476be3bfeafaee533",
+        "signature": "c132bcd16907ea62a7ecfa930c3a8554302ed0620b7261f476be3bfeafaee533"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/add.d.ts": {
+        "version": "eb9171261a11286c09bc7de7d4beb8103dc6f1a85d962957e1073b121a6a5e96",
+        "signature": "eb9171261a11286c09bc7de7d4beb8103dc6f1a85d962957e1073b121a6a5e96"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/randomEnoughID.d.ts": {
+        "version": "648fb61c13253e9a2ffb261ab8e3b2d2332839f7fb0567611147df22d9ffc7b3",
+        "signature": "648fb61c13253e9a2ffb261ab8e3b2d2332839f7fb0567611147df22d9ffc7b3"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/sendMessage.d.ts": {
+        "version": "c06fe127c28b1eb7b54c987576d5e26558e631a09d0bc36dc8af317c8bc63717",
+        "signature": "c06fe127c28b1eb7b54c987576d5e26558e631a09d0bc36dc8af317c8bc63717"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/send.d.ts": {
+        "version": "4a2e48e2158b4e5c0ec3244dbef5c255e42d01f1f1f6f399efd72e2070e6d3c3",
+        "signature": "4a2e48e2158b4e5c0ec3244dbef5c255e42d01f1f1f6f399efd72e2070e6d3c3"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/index.d.ts": {
+        "version": "9772d16ef7a93212f80d0fe154ca85424497500b89f8458bfc7224e36b5d6f14",
+        "signature": "9772d16ef7a93212f80d0fe154ca85424497500b89f8458bfc7224e36b5d6f14"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/Master.d.ts": {
+        "version": "5703b32e5814e9c17cec46d656e1265a888092db66060278874ea7170640d849",
+        "signature": "5703b32e5814e9c17cec46d656e1265a888092db66060278874ea7170640d849"
+      },
+      "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts": {
+        "version": "26e1c87538f58a69a98ac428375d85faff1c68ddf8c059f56c24864022d7d048",
+        "signature": "26e1c87538f58a69a98ac428375d85faff1c68ddf8c059f56c24864022d7d048"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/types.d.ts": {
+        "version": "111bc03f6a9354987cd978b5812a9e432c015cc8d5b6934079ad005dd3d087c6",
+        "signature": "111bc03f6a9354987cd978b5812a9e432c015cc8d5b6934079ad005dd3d087c6"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/dotenv/index.d.ts": {
+        "version": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a",
+        "signature": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/database.ts": {
+        "version": "8854e5b3c248f0cb69b7cb88f3576b5fca635a181bf0ed69b7a069116a6a70aa",
+        "signature": "688f7c8445dea0c59b2e3fa6e8ab5c6794b9766f27a87d89c3f91f5bc1df9a8e"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/server/index.d.ts": {
+        "version": "fc5599af843c3dd98b14a8de822baf26043ef95f60dd311b118343a66c5ccb00",
+        "signature": "fc5599af843c3dd98b14a8de822baf26043ef95f60dd311b118343a66c5ccb00"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/reactParser.ts": {
+        "version": "bb27f19e55f39dabcf1d63ec5c95ddb87465a4e5d8f6f71186d7ac05090c07c6",
+        "signature": "b4914441872b6ff42a881d91bb43693e983cc44aea6af08c06f6ca5ed6e5acc6"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.list.ts": {
+        "version": "7241360ff8846cd2b9f00039038e96dd743323fcf6389f88e52e7a23c331469b",
+        "signature": "9c82db1fdbaa27c642194bc6660de6accf7d2f583f0fe875324e980a18168101"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/login.list.ts": {
+        "version": "f1c0f5f15a07e3b32fae087642092ef94bd8a9b4f5d0021192a0c8bd2a8b630c",
+        "signature": "9c82db1fdbaa27c642194bc6660de6accf7d2f583f0fe875324e980a18168101"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/register.list.ts": {
+        "version": "1489fd4c9ef42946683beda61a932e5d53211d99c4ba850e576833fc7705beb1",
+        "signature": "9c82db1fdbaa27c642194bc6660de6accf7d2f583f0fe875324e980a18168101"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.ts": {
+        "version": "b00848f91c56d50c3f4173a0391ee0c404dbe3e0fa3230f6b4a066fadb79a395",
+        "signature": "11bbd42c2776d280f06e83835ac7ddc1d159a441d6e8e48df53d780e8495698b"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/server/server.ts": {
+        "version": "3601b7f6bd08aec7377a7a695588b143a4622e3a9e71fe38ab4c2885fcce5676",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest-diff/index.d.ts": {
+        "version": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06",
+        "signature": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest/index.d.ts": {
+        "version": "a6ea3b29104efd7a3dd497d3496306f8350eb2ab05b7fa1b25fe82f9391bf879",
+        "signature": "a6ea3b29104efd7a3dd497d3496306f8350eb2ab05b7fa1b25fe82f9391bf879"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/q/index.d.ts": {
+        "version": "57427a9a368f8f0ee4ce03c36a762e19166756b95ab688948b29be553b24a78a",
+        "signature": "57427a9a368f8f0ee4ce03c36a762e19166756b95ab688948b29be553b24a78a"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/tapable/index.d.ts": {
+        "version": "1703d8d3fa66de339203363011bcadafbf8220aad6fa280cdc23b774edef12c0",
+        "signature": "1703d8d3fa66de339203363011bcadafbf8220aad6fa280cdc23b774edef12c0"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/unist/index.d.ts": {
+        "version": "1320ee42b30487cceb6da9f230354fc34826111f76bf12f0ad76c717c12625b0",
+        "signature": "1320ee42b30487cceb6da9f230354fc34826111f76bf12f0ad76c717c12625b0"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile-message/index.d.ts": {
+        "version": "5bc2e83a413fd0debbe2aadecf5593a21fcb866ecd49920aa7d4d2fa71288e10",
+        "signature": "5bc2e83a413fd0debbe2aadecf5593a21fcb866ecd49920aa7d4d2fa71288e10"
+      },
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile/index.d.ts": {
+        "version": "6f56706c6828d0299f46f8b1a79ecae0757b91b48e63baf6f0c5292d02037129",
+        "signature": "6f56706c6828d0299f46f8b1a79ecae0757b91b48e63baf6f0c5292d02037129"
+      }
+    },
+    "options": {
+      "module": 1,
+      "target": 4,
+      "composite": true,
+      "removeComments": true,
+      "rootDir": "/home/tomasz/Desktop/projects/finances-tracker/",
+      "outDir": "/home/tomasz/Desktop/projects/finances-tracker/_temp",
+      "declaration": true,
+      "jsx": 2,
+      "inlineSourceMap": true,
+      "project": "./tsconfig.temp.json",
+      "configFilePath": "/home/tomasz/Desktop/projects/finances-tracker/tsconfig.temp.json"
+    },
+    "referencedMap": {
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.full.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/globals.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/assert.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/async_hooks.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/buffer.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/cluster.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/console.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/constants.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/crypto.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dgram.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/domain.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http2.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/https.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/inspector.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/module.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/os.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/perf_hooks.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/async_hooks.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/process.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/punycode.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/readline.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/repl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/readline.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/string_decoder.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/timers.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/crypto.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/trace_events.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tty.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/v8.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/worker_threads.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/zlib.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/base.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/globals.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/assert.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/async_hooks.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/buffer.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/cluster.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/console.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/constants.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/crypto.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dgram.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/domain.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http2.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/https.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/inspector.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/module.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/os.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/perf_hooks.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/punycode.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/readline.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/repl.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/string_decoder.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/timers.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/trace_events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tty.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/v8.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/worker_threads.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/zlib.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/globals.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/base.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/fs-extra/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/parse.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/fs-extra/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/global.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/csstype/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/prop-types/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/csstype/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/prop-types/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/global.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createBrowserHistory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createHashHistory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createMemoryHistory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/LocationUtils.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/PathUtils.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createBrowserHistory.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createHashHistory.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createMemoryHistory.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/LocationUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/PathUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router-dom/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Add.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/ArrowUp.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Clear.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Calendar.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Label.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Nav.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Add.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/ArrowUp.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Clear.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Calendar.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Label.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/locale-currency/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Tile.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router-dom/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Balance.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Tile.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/helpers/classes.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/hooks/useUser.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/History.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Tile.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/ArrowUp.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/helpers/classes.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/hooks/useUser.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/index.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Nav.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/locale-currency/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Balance.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/History.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/helpers/formatter.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/locale-currency/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Subsite.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router-dom/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Income.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Nav.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/helpers/formatter.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Subsite.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Balance.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bcrypt/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/models/users.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bcrypt/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Register.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Subsite.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/models/users.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Login.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Subsite.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Register.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router-dom/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/index.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Nav.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Income.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Register.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Login.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/serviceWorker.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/index.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/serviceWorker.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/react-app-env.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Atm.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bson/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/mongodb/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bson/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/array.dict.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/array.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/helpers/nativfy.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/get.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/helpers/nativfy.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/get.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/node_modules/chalk/types/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/dynamicPath.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/logger.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/node_modules/chalk/types/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/parseBody.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/add.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/randomEnoughID.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/sendMessage.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/send.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/helpers/index.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/dynamicPath.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/logger.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/parseBody.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/add.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/randomEnoughID.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/sendMessage.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/send.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/node_modules/@types/mime/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/Master.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/cluster.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/os.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/index.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/node_modules/@types/mime/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/src/index.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/src/Master.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/helpers/index.ts",
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/types.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/node_modules/chalk/types/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/index.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/dynamicPath.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/logger.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/parseBody.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/add.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/randomEnoughID.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/sendMessage.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/send.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/index.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/dynamicPath.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/logger.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/parseBody.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/add.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/randomEnoughID.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/sendMessage.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/send.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/Master.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/Master.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/types.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/dotenv/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/database.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/mongodb/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/helpers/nativfy.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/types.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/dotenv/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/server/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/reactParser.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/fs-extra/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/server/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.list.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/reactParser.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/login.list.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/server/models/users.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bcrypt/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/reactParser.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/database.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/register.list.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/server/models/users.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bcrypt/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/reactParser.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/database.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.list.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/login.list.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/register.list.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/server.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/server/reactParser.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/server/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/dotenv/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest-diff/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest-diff/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/q/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/tapable/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/unist/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile-message/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/unist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/unist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile-message/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/typescript/lib/lib.es2017.full.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/globals.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/assert.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/async_hooks.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/buffer.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/cluster.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/console.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/constants.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/crypto.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dgram.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/domain.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http2.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/https.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/inspector.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/module.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/os.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/perf_hooks.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/async_hooks.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/process.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/punycode.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/readline.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/repl.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/readline.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/string_decoder.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/timers.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/crypto.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/trace_events.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tty.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/v8.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/worker_threads.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/zlib.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/base.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/globals.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/assert.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/async_hooks.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/buffer.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/child_process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/cluster.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/console.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/constants.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/crypto.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dgram.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/dns.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/domain.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http2.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/https.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/inspector.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/module.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/net.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/os.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/path.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/perf_hooks.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/process.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/punycode.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/querystring.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/readline.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/repl.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/string_decoder.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/timers.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/trace_events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tty.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/url.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/v8.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/vm.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/worker_threads.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/zlib.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/globals.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/base.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/fs-extra/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/fs.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/global.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/csstype/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/prop-types/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/csstype/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/prop-types/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/global.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createBrowserHistory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createHashHistory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createMemoryHistory.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/DOMUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/LocationUtils.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/PathUtils.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createBrowserHistory.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createHashHistory.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/createMemoryHistory.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/LocationUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/PathUtils.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router-dom/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/history/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/locale-currency/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Tile.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/index.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/components/Subsite.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Income.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bcrypt/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Register.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/views/Login.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/Root.tsx": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-router/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/client/src/react-app-env.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bson/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/mongodb/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/bson/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/events.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/stream.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/tls.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/array.dict.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/array.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/helpers/nativfy.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/get.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/helpers/nativfy.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/get.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/node_modules/chalk/types/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/node_modules/@types/mime/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/types.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/node_modules/chalk/types/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/src/index.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/dynamicPath.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/logger.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/parseBody.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/add.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/randomEnoughID.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/sendMessage.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/send.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/helpers/index.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/dynamicPath.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/logger.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/parseBody.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/add.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/randomEnoughID.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/sendMessage.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/send.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/Master.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/http.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/Master.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/dist/helpers/index.d.ts",
+        "/home/tomasz/Desktop/projects/river-flow/types.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/types.d.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/dotenv/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/database.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/mongodb/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/update.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/querifier/dist/src/dictionaries/condition.dict.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/server/types.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react-dom/server/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/react/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/reactParser.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.list.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/login.list.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/register.list.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/server/listeners/index.ts": [
+        "/home/tomasz/Desktop/projects/river-flow/dist/index.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest-diff/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/jest-diff/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/q/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/tapable/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/unist/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile-message/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/unist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile/index.d.ts": [
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/unist/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/vfile-message/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/util.d.ts",
+        "/home/tomasz/Desktop/projects/finances-tracker/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": []
+  },
+  "version": "3.4.3"
+}

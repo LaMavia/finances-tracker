@@ -1,12 +1,17 @@
-@import "./_colors.pcss";
+@import './_colors.pcss';
+
+:root {
+  --tile-list-item-h: 50px;
+}
 
 .tile {
   width: 100%;
   height: auto;
-  background-color: var(--color); 
+  background-color: var(--color);
   padding: 15px;
   @include shadow();
   text-decoration: none;
+  margin-bottom: 20px;
 
   &__title {
     color: $white;
@@ -18,6 +23,58 @@
   &__content {
     margin-top: 5px;
     color: $white;
+
+    &__list {
+      list-style: none;
+
+      &__item {
+        display: flex;
+        flex-flow: row nowrap;
+        height: var(--tile-list-item-h);
+        line-height: var(--tile-list-item-h);
+        text-decoration: none;
+
+        &--small {
+          --tile-list-item-h: 40px;
+        }
+        &--mid {
+          --tile-list-item-h: 50px;
+        }
+        &--large {
+          --tile-list-item-h: 80px;
+        }
+
+        &__icon {
+          --deg: 90deg;
+          --c: $green;
+          width: var(--tile-list-item-h);
+          height: var(--tile-list-item-h);
+          transform: rotate(var(--deg));
+          fill: var(--c);
+
+          &--pos {
+            --deg: 90deg;
+            --c: $green;
+          }
+
+          &--neg {
+            --deg: -90deg;
+            --c: $red;
+          }
+        }
+
+        &__amount {
+          font-size: calc(var(--tile-list-item-h) / 1.5);
+          margin-right: 5px;
+        }
+
+        &__name {
+          font-size: calc(var(--tile-list-item-h) / 2.2);
+          line-height: calc(var(--tile-list-item-h)* 1.1);
+          text-transform: capitalize;
+        }
+      }
+    }
   }
 
   &__text {

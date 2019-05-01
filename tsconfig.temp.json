@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "composite": true,
+    "removeComments": true,
+    "rootDir": "./",
+    "outDir": "./_temp",
+    "declaration": true,
+    "jsx": "react",
+    "inlineSourceMap": true
+  },
+  "include": [
+    "./client",
+    "./server"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

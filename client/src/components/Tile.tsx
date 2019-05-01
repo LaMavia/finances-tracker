@@ -8,8 +8,7 @@ interface P {
 }
 export const Tile = ({ title, color, children, href }: P) => {
   return (
-    <Link
-      to={href}
+    <div
       className="tile"
       style={{
         // @ts-ignore
@@ -20,6 +19,6 @@ export const Tile = ({ title, color, children, href }: P) => {
       <div className="tile__content">
         {children}
       </div>
-    </Link>
+    </div>
   )
 }

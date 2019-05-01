@@ -9,9 +9,10 @@ import {
 } from 'react-router'
 import Index from './views/index'
 import { Nav } from './components/Nav';
-import Balance from './views/Income';
+import Income from './views/Income';
 import Register from './views/Register';
 import Login from './views/Login';
+import { createBrowserHistory } from "history"
 
 export interface RootOptions {
   context: StaticContext 
@@ -35,8 +36,8 @@ export default (
   }
 ) => {
   // Prepare routes
-  const routes = [Login, Register, Balance, Index] as ViewExport[]
-
+  const routes = [Login, Register, Income, Index] as ViewExport[]
+  
   // Switch render
   let render: typeof React.Component.prototype.render
   if (context === 'Client')
@@ -56,7 +57,8 @@ export default (
       </StaticRouter>
     }
 
-  return class Root extends React.Component {
+    // @ts-ignore
+  return class Root extends (React || global.React).Component {
     constructor(props: any) {
       super(props)
       this.render = render.bind(this)

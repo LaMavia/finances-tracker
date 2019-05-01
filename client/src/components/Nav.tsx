@@ -11,7 +11,7 @@ export const Nav = () => {
   return (
     <nav className={['nav', open ? 'nav--open' : ''].join(' ')}>
       <div onClick={() => open&&setstate(false)} className="nav__catch"></div>
-      <button className="ui__btn ui__btn--wide ui__btn--wide--left">
+      <button onClick={() => window.history.back()} className="ui__btn ui__btn--wide ui__btn--wide--left">
         <SvgArrowUp />
       </button>
       <div className="nav__burger">
@@ -31,7 +31,7 @@ export const Nav = () => {
           <SvgAdd />
         </button>
       </div>
-      <button className="ui__btn ui__btn--wide ui__btn--wide--right">
+      <button onClick={() => window.history.forward()} className="ui__btn ui__btn--wide ui__btn--wide--right">
         <SvgArrowUp />
       </button>
     </nav>
